@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('IMG/2.jpg'); 
+    
+    color:noir;
+    background-attachment:fixed;
+    background-repeat:repeat;
+    background-size:cover;
+    margin: 5px;
+    padding: 50px;
+    width:80%;
+    
+}
+
+header {
+     border-radius: 70px;
+    background-color: rgb(90, 14, 233);
+    color: white;
+    text-align: center;
+    width:80%;
+     border: 1px solid black;
+      margin: 5px;
+    padding: 20px;
+    
+    
+    
+}
+
+nav {
+    background-color: ;
+     padding: 10px 20px;
+     
+      width:77%;
+     
+}
+
+nav a  {
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 3px;
+    background-color: rgb(192, 193, 255);
+    border-radius: 5px;
+    
+}
+
+nav a:hover {
+    background-color: red;
+    
+}
+
+main {
+    text-align: center;
+    background-color: rgb(73, 72, 2);
+   border-radius: 20px;
+     color: black;
+      border: 2px solid black;
+      width:80%;
+      margin: 5px;
+    padding: 20px;
+}
+
+table {
+border-collapse: collapse;
+width: 90%;
+text-align: center;
+border: 2px solid black;
+background-color: #DFF2FF;
+
+}
+
+thead th {
+background-color: #0099FF;
+color: white;
+padding: 10px;
+}
+
+td, th {
+border: 1px solid black;
+padding: 10px;
+}
+
+.schedule td {
+height: 50px;
+}
+.schedule .vide {background-color: #AFAFAF;}
+
+
+.schedule .anglais {
+background-color: #FFA07A;
+}
+
+.schedule .reseaux {
+background-color: #6A5ACD;
+color: white;
+}
+
+.schedule .algo {
+background-color: #FFFF99;
+}
+
+.schedule .bdd {
+background-color: #F1B2E1;
+}
+
+.schedule .genie {
+background-color: #FF69B4;
+}
+
+.schedule .web {
+background-color: #008000;
+color: white;
+}
+
+.schedule .programmation {
+background-color: #90EE90;
+}
+
+.schedule .systeme {
+background-color: #CD5C5C;
+color: white;
+}
+
+.schedule .sport {
+background-color: #32CD32;
+color: white;
+}
+video{
+width:80%;
+}	
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+}
+
+/* Animation des bordures au survol */
+td:hover {
+    border-color: #ff6347; /* Couleur de la bordure au survol */
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+/* Animation de fond au survol */
+td:hover {
+    background-color: #e0f7fa; /* Couleur de fond au survol */
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+/* Animation de rotation au survol */
+td:hover {
+    transform: rotate(5deg); /* Rotation de 5 degrés */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    margin-top: 20px;
+    
+}
+a{
+    border-radius: 40px;
+}
