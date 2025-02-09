@@ -1,0 +1,68 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<form name ="form1"
+	method="post" action=""	>
+<body>
+     <header>
+	                    <h1> Mon site personnel <br>
+						            Contact</h1>
+	
+       
+    </header>
+	 <nav>
+        
+            <a href="index.html">Accueil</a>
+            <a href="CV.html">CV</a></li>
+            <a href="agenda.html">Agenda</a>
+            <a href="photo.html">Photo</a>
+            <a href="contact.html">Contact</a>
+        
+    </nav>
+   
+    
+    <main>
+        <h1><b>Contactez nous sur<b></h1><br>
+		
+    </main>
+	<label for="1">Nom</label>
+	<input type="text" name="nom" id="1"required ><br><br>
+	<label>Prenom</label>
+	<input type="text" name="prénom"required><br><br>
+	<label>Date de naissance</label>
+	<input type="date" name="Date de naissance"required><br><br>
+<!--2 eme partie-->
+	
+	
+<p>
+	<input type="radio" name="lieu" value="Burkina Faso" id="B"checked><label for="B">Burkina Faso</label>	
+	<input type="radio" name="lieu" value="Reste du monde" id="R"checked><label for="R">Reste du monde</label><br>
+	</p>
+	<label for="Adresse">Adresse postale</label>
+<textarea type="message"cols)"50" rows="2"></textarea><br><br>
+	
+<label for="Code">Code postale</label>
+<input type="number" id="Code" name="Code" pattern="\d{5}" maxlenght="5"required><br><br>
+		
+	<optio<select name="Code">
+	
+<label for="email">Adresse électronique</label>
+	<input type="email" id="email" name="email"required><br><br>
+<label for="website">Page personnelle</label>
+	<input type="url" id="website" name="website"required><br><br>
+<label for="phone">Telephone portable</label>
+	<input type="tel" id="phone" name="phone" pattern="^\+226\d{8}$" required><br><br>
+
+
+<!--3 eme partie-->
+	
+
+<input type="submit" value="Enregistrer">
+	<input type ="reset" value="Effacer">
+</form>
+	            
+</body>
+</html>
